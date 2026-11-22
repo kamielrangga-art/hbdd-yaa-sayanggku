@@ -126,13 +126,8 @@ function burstHearts(){
 }
 setInterval(()=>{if(Math.random()>.35)burstHearts()},4200);
 </script>
-  <audio id="musik" loop>
-    <source src="lagu.mp3" type="audio/mpeg">
+  <audio id="musik" controls loop>
+  <source src="./lagu.mp3" type="audio/mpeg">
 </audio>
-
-<button onclick="document.getElementById('musik').play()"
-style="background:#ff78a8;color:white;padding:15px 25px;border:0;border-radius:25px;cursor:pointer;">
-    ❤️ Putar Lagu Kita ❤️
-</button>
 </body>
 </html>
